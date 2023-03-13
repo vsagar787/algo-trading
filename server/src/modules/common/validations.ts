@@ -15,7 +15,7 @@ export class Validations {
 		const errors = validationResult(req);
 
 		if (!errors.isEmpty()) {
-			throw errors;
+			throw errors.array();
 			//return res.status(400).json({ errors: errors.array() });
 		}
 	}

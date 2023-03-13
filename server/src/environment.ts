@@ -20,7 +20,7 @@ class Environment {
         } else if (this.environment === Environments.qa_environment) {
             return 8083;
         } else {
-            return 4041;
+            return 80;
         }
     }
 
@@ -32,7 +32,7 @@ class Environment {
         } else if (this.environment === Environments.qa_environment) {
             return 'db_test_project_qa';
         } else {
-            return 'db_test_project_local';
+            return 'algo-trading';
         }
     }
 }

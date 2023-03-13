@@ -9,7 +9,7 @@ import { AlertsRoutes } from "../routes/alerts_routes";
 class App {
 
    public app: express.Application;
-   public mongoUrl: string = 'mongodb://localhost/' + environment.getDBName();
+   public mongoUrl: string = 'mongodb+srv://vsagar787:HCFCEGZUiVDeVaWr@cluster0.drnl4n0.mongodb.net/' + environment.getDBName();
 
    //private test_routes: TestRoutes = new TestRoutes();
    private common_routes: CommonRoutes = new CommonRoutes();
