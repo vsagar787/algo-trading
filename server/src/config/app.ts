@@ -20,8 +20,8 @@ class App {
       this.config();
       this.mongoSetup();
       //this.test_routes.route(this.app);
-      this.common_routes.route(this.app);
       this.alertsRoutes.route(this.app);
+      this.common_routes.route(this.app);
    }
 
    private config(): void {
