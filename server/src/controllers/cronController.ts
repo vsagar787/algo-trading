@@ -9,7 +9,7 @@ export class CronController {
     getAlerts() {
         console.log('Alert Controller..');
         let where = {}
-        let allAlerts = this.cronService._where(where,alerts);
+        //let allAlerts = this.cronService._where(where,alerts);
 
         
 
